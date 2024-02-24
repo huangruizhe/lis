@@ -28,8 +28,8 @@ def test_lis():
     print(f"X:      {X}")
     print(f"result: {result}")
 
-    // X:     [3, 4, -1, 5, 8, 2, 3, 12, 7, 9, 10]
-    //result: [-1, 2, 3, 7, 9, 10]
+    // X:      [3, 4, -1, 5, 8, 2, 3, 12, 7, 9, 10]
+    // result: [-1, 2, 3, 7, 9, 10]
 
 if __name__ == "__main__":
     test_lis()
