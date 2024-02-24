@@ -6,7 +6,7 @@
 
 // Reference: https://en.wikipedia.org/wiki/Longest_increasing_subsequence 
 
-int* longestIncreasingSubsequence(int* X, int N) {
+int* longestIncreasingSubsequence(int X[], int N, int& L) {
     // Allocate memory for P array
     int* P = new int[N];
 
@@ -14,7 +14,7 @@ int* longestIncreasingSubsequence(int* X, int N) {
     int* M = new int[N + 1];
     M[0] = -1; // Undefined, can be any value
 
-    int L = 0;
+    L = 0;
     for (int i = 0; i < N; ++i) {
         int lo = 1;
         int hi = L + 1;
@@ -42,13 +42,13 @@ int* longestIncreasingSubsequence(int* X, int N) {
         k = P[k];
     }
 
-    // Print the array S and its length
-    std::cout << "Longest increasing subsequence (S): ";
-    for (int i = 0; i < L; ++i) {
-        std::cout << S[i] << " ";
-    }
-    std::cout << std::endl;
-    std::cout << "Length of the longest increasing subsequence: " << L << std::endl;
+    // // Print the array S and its length
+    // std::cout << "Longest increasing subsequence (S): ";
+    // for (int i = 0; i < L; ++i) {
+    //     std::cout << S[i] << " ";
+    // }
+    // std::cout << std::endl;
+    // std::cout << "Length of the longest increasing subsequence: " << L << std::endl;
 
     // Free memory allocated for P and M arrays
     delete[] P;
