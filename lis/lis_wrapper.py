@@ -23,3 +23,8 @@ def longestIncreasingSubsequence(X):
     _liblis.free(result_ptr)
     
     return result
+
+# Expose the function under the lis module
+lis = {
+    'longestIncreasingSubsequence': longestIncreasingSubsequence
+}
