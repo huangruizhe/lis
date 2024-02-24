@@ -1,6 +1,6 @@
 # A python library for finding Longest Increasing Subsequence (LIS) in an integer array
 
-This repository implements the efficient $O(NlogN)$ algorithm to find the "longest increasing subsequence" as outlined [here](https://en.wikipedia.org/wiki/Longest_increasing_subsequence) in the Wikepedia.
+This repository implements the efficient $O(NlogN)$ algorithm to find the "longest increasing subsequence" as outlined [here](https://en.wikipedia.org/wiki/Longest_increasing_subsequence) in the Wikipedia.
 
 ## Installation
 
