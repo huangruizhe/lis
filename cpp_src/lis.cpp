@@ -4,6 +4,8 @@
 #include <cmath>
 #include <algorithm>
 
+// Reference: https://en.wikipedia.org/wiki/Longest_increasing_subsequence 
+
 int* longestIncreasingSubsequence(int* X, int N) {
     // Allocate memory for P array
     int* P = new int[N];
@@ -39,6 +41,14 @@ int* longestIncreasingSubsequence(int* X, int N) {
         S[j] = X[k];
         k = P[k];
     }
+
+    // Print the array S and its length
+    std::cout << "Longest increasing subsequence (S): ";
+    for (int i = 0; i < L; ++i) {
+        std::cout << S[i] << " ";
+    }
+    std::cout << std::endl;
+    std::cout << "Length of the longest increasing subsequence: " << L << std::endl;
 
     // Free memory allocated for P and M arrays
     delete[] P;

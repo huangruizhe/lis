@@ -4,7 +4,7 @@ import os
 
 # Get the path to the shared object file
 file_dir = os.path.dirname(os.path.abspath(__file__))
-so_file = os.path.join(file_dir, '../build/lib.linux-x86_64-cpython-310/lis/_liblis.cpython-310-x86_64-linux-gnu.so')
+so_file = os.path.join(file_dir, '_liblis.cpython-310-x86_64-linux-gnu.so')
 
 # Load the shared object file
 _liblis = ctypes.CDLL(so_file)
