@@ -1,0 +1,15 @@
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/EGG-INFO/PKG-INFO
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/EGG-INFO/SOURCES.txt
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/EGG-INFO/dependency_links.txt
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/EGG-INFO/native_libs.txt
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/EGG-INFO/not-zip-safe
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/EGG-INFO/requires.txt
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/EGG-INFO/top_level.txt
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/lis/__init__.py
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/lis/_liblis.cpython-310-x86_64-linux-gnu.so
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/lis/_liblis.py
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/lis/lis_wrapper.py
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/lis/__pycache__/__init__.cpython-310.pyc
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/lis/__pycache__/_liblis.cpython-310.pyc
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/lib/python3.10/site-packages/lis_package-0.1-py3.10-linux-x86_64.egg/lis/__pycache__/lis_wrapper.cpython-310.pyc
+/home/hltcoe/rhuang/mambaforge/envs/aligner5/bin/f2py

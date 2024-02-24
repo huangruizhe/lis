@@ -9,6 +9,7 @@ To install it, run:
 git clone https://github.com/huangruizhe/lis.git
 cd lis
 python setup.py install --record files.txt
+pip install .
 ```
 
 If you want to remove the installed package, you can run:
