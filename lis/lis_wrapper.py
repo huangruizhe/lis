@@ -8,7 +8,7 @@ _liblis = ctypes.CDLL('./liblis.so')  # Change the path if necessary
 _liblis.longestIncreasingSubsequence.restype = ctypes.POINTER(ctypes.c_int)
 _liblis.longestIncreasingSubsequence.argtypes = [np.ctypeslib.ndpointer(dtype=np.int32), ctypes.c_int]
 
-def longest_increasing_subsequence(X):
+def longestIncreasingSubsequence(X):
     # Convert Python list to NumPy array
     X_np = np.array(X, dtype=np.int32)
     N = len(X)
