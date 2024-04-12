@@ -6,6 +6,10 @@ This repository implements the efficient $O(NlogN)$ algorithm to find the "longe
 
 To install it, run:
 ```
+pip install git+https://github.com/huangruizhe/lis.git
+```
+or
+```
 git clone https://github.com/huangruizhe/lis.git
 cd lis
 python setup.py install --record files.txt
